@@ -56,4 +56,8 @@ title description keywords--三大标签
             font-family: 'icomoon';
         }
      3)追加字体图标
-       a、重新选择-替换fonts下的文件-
+       a、原来压缩包里面的json文件--打开icomoon网页-import icon 上传json文件
+       b、重新选择-下载-替换fonts下的文件
+
+5、网站分析
+   1）header-shortcut快捷导航

@@ -10,3 +10,17 @@
     width: 1200px;
     margin: 0 auto;
 }
+/* 如果是经常用到的颜色，单独提取，用的时候调用一下该类就可以了 */
+.style-red {
+    color: #c81623;
+}
+
+/* 顶部快捷导航开始 */
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+.shortcut li {
+    float: left;
+}
