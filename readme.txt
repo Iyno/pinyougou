@@ -61,3 +61,12 @@ title description keywords--三大标签
 
 5、网站分析
    1）header-shortcut快捷导航
+
+6、小竖线
+给一个li或者space设置这样的类
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}

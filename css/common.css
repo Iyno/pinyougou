@@ -14,7 +14,12 @@
 .style-red {
     color: #c81623;
 }
-
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}
 /* 顶部快捷导航开始 */
 .shortcut {
     height: 31px;
