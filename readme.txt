@@ -70,3 +70,10 @@ title description keywords--三大标签
     background-color: #666;
     margin: 9px 12px 0;
 }
+
+7、logo优化
+   1）logo里面首先放一个h1标签，目的是为提权，告诉搜索引擎，这个地方很重要
+   2）h1里面在放一个连接，可以返回首页的，给连接一个大小和logo背景图片
+   3）连接里面要放文字，但是文字不是显示出来，要用text-indent移到盒子外面
+   （text-indent: 9999px）然后overflow:hidden
+   4）最后给连接一个title 这样鼠放到logo上，就可以看到提示文字了
