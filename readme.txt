@@ -77,3 +77,5 @@ title description keywords--三大标签
    3）连接里面要放文字，但是文字不是显示出来，要用text-indent移到盒子外面
    （text-indent: 9999px）然后overflow:hidden
    4）最后给连接一个title 这样鼠放到logo上，就可以看到提示文字了
+
+先做布局-比如定位、浮动等-量长宽高-在看内部样式-字体、颜色、边框等

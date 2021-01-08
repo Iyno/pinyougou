@@ -59,7 +59,7 @@
 .header {
     position: relative;
     height: 105px;
-    background-color: pink;
+    
 }
 .logo {
     position: absolute;
@@ -67,7 +67,7 @@
     left: 0;
     width: 175px;
     height: 56px;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .logo a {
@@ -75,9 +75,78 @@
     overflow: hidden;
     width: 175px;
     height: 56px;
-    background: url(../img/newLogo.png) no-repeat;
+    background: url(../img/logo1.png) no-repeat;
+    background-position:center 30%;
     text-indent: -9999px;
     /* 或者 */
     /* font-size: 0; */
+}
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px; 
+
+}
+.text {
+    float: left;
+    width: 445px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    padding-left: 10px;
+    color: #ccc;
+}
+.btn {
+    /* 为了解决左边搜索框和右边按钮不紧贴的问题，两个都要浮动 */
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+}
+.hotwords {
+    position: absolute;
+    top: 65px;
+    left: 348px; 
+
+}
+.hotwords a {
+    /* a是行内元素，可以给左右边距，不给上下就行了 */
+    margin: 0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    line-height: 34px;
+    text-align: center;
+}
+.car {
+    font-family:  'icomoon';
+    color: #da5555;
+}
+.arrow {
+    font-family:  'icomoon';
+    margin-left: 5px;
+}
+.count {
+    /* 定位的盒子自动转换为块元素 */
+    position: absolute;
+    top: -5px;
+    /* 应该是左侧对齐，文字才能往右走 */
+    left: 100px;
+    background-color: #e60012;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 3px;
+    color: #fff; 
+    /* border-radius: 左上 右上 右下 左下; */
+    border-radius: 7px 7px 7px 0;
 }
 /* header结束 */
