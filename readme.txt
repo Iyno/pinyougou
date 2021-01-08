@@ -79,3 +79,9 @@ title description keywords--三大标签
    4）最后给连接一个title 这样鼠放到logo上，就可以看到提示文字了
 
 先做布局-比如定位、浮动等-量长宽高-在看内部样式-字体、颜色、边框等
+
+8、git常用命令
+pinyougou  git:(master) ✗ git add -A .
+➜  pinyougou  git:(master) ✗ git commit -m "shopcar finished"
+➜  pinyougou  git:(master) git push
+➜  pinyougou  git:(master) 
